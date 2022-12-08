@@ -1,11 +1,8 @@
 import Head from "next/head";
-import { useRouter } from "next/router";
 
 import HomePageComp from "../components/HomePageComp";
 
 export default function HomePage() {
-  // const router = useRouter();
-  // console.log(router);
   return (
     <>
       <Head>

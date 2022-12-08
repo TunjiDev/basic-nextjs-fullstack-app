@@ -60,10 +60,6 @@ export async function getStaticProps(context) {
 
   const selectedUser = await usersCollection.findOne({ name: userId });
 
-  //   console.log(selectedUser);
-
-  //   const users = await usersCollection.find().toArray();
-
   client.close();
 
   return {
