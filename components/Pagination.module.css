@@ -1,0 +1,51 @@
+.activePagination {
+	background-color: green;
+	color: white;
+}
+
+.main {
+	min-height: 85vh;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.error {
+	background-color: rgb(186, 0, 0);
+	color: whitesmoke;
+	padding: 10px;
+}
+
+.pageNumbers {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.pageNumbers li {
+	padding: 10px;
+	border: 1px solid white;
+	cursor: pointer;
+}
+
+.pageNumbers li button {
+	background-color: rgb(25, 87, 25);
+	color: white;
+	border-radius: 10px;
+	border: none;
+	font-size: 20px;
+	cursor: pointer;
+	padding: 2px 10px;
+}
+
+.pageNumbers li button:hover {
+	background-color: white;
+	color: green;
+}
+
+.pageNumbers li button:focus {
+	outline: none;
+}
